@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/icone/icone.png" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <section class="formulario" id="contato">
+        <div class="interface">
+            <h2 class="titulo">FALE <span>CONOSCO.</span></h2>
+
+            <form action="https://api.staticforms.xyz/submit" method="POST">
+
+                <input type="text" name="$Nome:" id="" placeholder="Seu nome:" required>
+                <input type="email" name="$Email:" id="" placeholder="Seu email:" required>
+                <input type="number" name="$Telefone:" id="" placeholder="Seu celular:" required>
+                <textarea name="$Mensagem:" id="" placeholder="Sua mensagem:" required></textarea>
+                <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+
+                <input type="hidden" name="_subject" value="Novo Contato!">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="accessKey" value="">
+                <input type="hidden" name="redirectTo" value="">
+
+            </form>
+
+        </div><!--interface-->
+    </section><!--formulario-->
+    <main>
+
+        <footer>
+            <div class="interface">
+                <div class="line-footer">
+                    <div class="flex">
+                    <div class="logo-footer">
+                        <img src="icone/icone.png" alt="logo de jojo" width="100">
+                    </div><!--logo-footer-->
+                    
+                    </div>
+                </div><!--line-footer-->
+    
+                <div class="line-footer borda">
+                    <p><i class="bi bi-envelope-fill"></i> <a href="assisteciajojo@gmail.com">assisteciajojo@gmail.com
+                    </a></p>
+                </div>
+            </div><!--interface-->
+        </footer>
+        
+</body>
+</html>

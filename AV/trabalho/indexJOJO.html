@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/icone/icone.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOJO BIZZARE ADVENTURE</title>
+    <script src="menu.js"></script>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+
+                    <img src="icone/icone.png" alt="logo de jojo" width="200px" >
+                
+                </a>
+    
+           </div><!--logo-->
+    
+            <nav class="menu-desktop">
+                
+                <div id="area-cabecalho">
+                    <div id="area-logo">
+                        <h1 class="rosa">JOJO <span>BIZZARE ADVENTURE</span></h1>
+                    </div>
+                    <div id="area-menu">
+                        <ul>
+                            <li><a href="indexJOJO.html">Início</a></li>
+                            <li><a href="https://mangaeon.com/manga/1044287a-73df-48d0-b0b2-5327f32dd651" target="_blank">Mangá</a></li>
+                            <li><a href="sobre.html" target="_blank">Sobre</a></li>
+                          <!-- <li><a href="#projetos">Projetos</a></li>--> 
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="jojo-b">
+                <a href="contato.html" target="_blank">
+                    <button>Contato</button>
+                </a>
+            </div><!--jojo-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+    
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div><!--BTN-FECHAR-->
+    
+                <nav>
+                    <ul>
+                        <li><a href="indexJOJO.html">Início</a></li>
+                        <li><a href="https://mangaeon.com/manga/1044287a-73df-48d0-b0b2-5327f32dd651" target="_blank">Mangá</li>
+                        <li><a href="sobre.html" target="_blank">Sobre</a></li>
+                        <!--<li><a href="#projetos">Projetos</a></li>-->
+                        <li><a href="contato.html" target="_blank">Contato </a></li>
+                    </ul>
+    
+                </nav>
+            </div><!--menu-mobile-->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+    
+        </div><!--interface-->
+    </header>
+    <div class="container">
+        <h3>Sinopse</h3>
+       <!--  <h2>Sinopse</h2> -->
+        <p class="jojo-explanation">JoJo's Bizarre Adventure é uma história sobre a família Joestar, que possui o destino de derrotar inimigos sobrenaturais. A trama é dividida por partes, cada parte acompanha um integrante  diferente da família Joestar, que possuem poderes e habilidades especiais.</p>
+        <h3>Informações base:</h3>
+        <p class="jojo-explanation">Anime/Mangá</p>
+        <p class="jojo-explanation">Gênero: Aventura, Sobrenatural, Suspense, Comédia, Tragédia e Mistério</p>
+        <h4>Aqui vamos falar sobre a história dessa obra incrível, na ordem cronológica.</h4>
+       <!--  <hr> -->
+            <h2>Personagens Principais</h2>
+                <ul id="characters-list">
+                    <li><a href="#PHANTOM BLOOD I">Parte 1 (PHANTOM BLOOD) - Jonathan Joestar</a></li>
+                    <li><a href="#PHANTOM BLOOD II">Parte 1 (PHANTOM BLOOD) - Dio Brando</a></li>
+                    <li><a href="#Battle Tendency I">Parte 2 (Battle Tendency) - Joseph Joestar</a></li>
+                    <li><a href="#Battle Tendency II">Parte 2 (Battle Tendency) - Kars</a></li>
+                    <li><a href="#Stardust Crusaders I">Parte 3 (Stardust Crusaders) - Jotaro Kujo</a></li>
+                    <li><a href="#Stardust Crusaders II">Parte 3 (Stardust Crusaders) - DIO</a></li>
+                    <li><a href="#Diamond Is Unbreakable I">Parte 4 (Diamond Is Unbreakable) - Josuke Higashikata</a></li>
+                    <li><a href="#Diamond Is Unbreakable II">Parte 4 (Diamond Is Unbreakable) - Yoshikage Kira</a></li>
+                    <li><a href="#Golden Wind I">Parte 5 (Golden Wind) - Giorno Giovanna</a></li>
+                    <li><a href="#Golden Wind II">Parte 5 (Golden Wind) - Diavolo</a></li>
+                    <li><a href="#Stone Ocean I">Parte 6 (Stone Ocean) - Jolyne Cujoh</a></li>
+                    <li><a href="#Stone Ocean II">Parte 6 (Stone Ocean) - Enrico Pucci</a></li>
+                    <li><a href="#Steel Ball Run I">Parte 7 (Steel Ball Run) - Johnny Joestar</a></li>
+                    <li><a href="#Steel Ball Run II">Parte 7 (Steel Ball Run) - Funny Valentine</a></li>
+                    <li><a href="#JoJolion I">Parte 8 (JoJolion) - Josuke Higashikata</a></li>
+                    <li><a href="#JoJolion II">Parte 8 (JoJolion) - Toru</a></li>
+                </ul>
+                <table border="1" cellpadding="10">
+                    <tr class="table-title-section">
+                        <th>Parte</th>
+                        <th>Protagonista/Vilão</th>
+                        <th>Descrição da parte/personagem</th>
+                        <th>Retrato do personagem</th>
+                    </tr>
+                    <tr id="PHANTOM BLOOD I">
+                        <td>Parte 1 (PHANTOM BLOOD)</td>
+                        <td>Jonathan Joestar</td>
+                        <td>
+                            <p class="table-jojo">A primeira parte Phantom Blood, ambientada na Inglaterra em 1880, segue Jonathan Joestar enquanto ele <br> amadurece e eventualmente combate seu irmão adotivo, o astuto e impiedoso Dio Brando, que se torna um vampiro com a ajuda de uma antiga máscara de pedra. <br> Jonathan é treinado por Will Anthonio Zeppeli na energia vibrante do Hamon, manejada no corpo humano e transferida em combate corpo a corpo, que é o único <br> caminho seguro além da luz do sol para derrotar Vampiros e seus asseclas Zumbis.
+                                <br>
+                            <br>  Jonathan Joestar (ジョナサン・ジョースター Jonasan Jōsutā) é o protagonista de Phantom Blood e o primeiro JoJo da série JoJo's Bizarre Adventure. Filho de George Joestar I, Jonathan é um homem honesto, gentil e positivo, cuja vida está repleta de tragédias após conhecer seu irmão mais velho adotivo, Dio Brando.<br>
+                            Em sua batalha contra Dio, Jonathan se torna um usuário do Hamon sob a tutela de Will Anthonio Zeppeli. (um verdadeiro herói) &#x1F9B8;
+                        </p> <!--"br" é usado para inserir uma quebra de linha em um texto-->
+                            <!-- <h4>Falando um pouco sobre o protagonista:</h4> -->
+                            <p > <!--"&#x" é usado para usar emojis-->
+                            </p>
+                        <td><img src="imagens/JoJo_Jonathan_parte1.webp" width="200" height="350" alt="imagem de Jonathan Joestar"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><a href="#top"><button>Voltar</button></a></td>
+                    </tr>
+                    <tr id="PHANTOM BLOOD II">
+                        <td>Parte 1 (PHANTOM BLOOD)</td>
+                        <td>Dio Brando</td>
+                        <td><p class="table-jojo">A primeira parte Phantom Blood, ambientada na Inglaterra em 1880, segue Jonathan Joestar enquanto ele <br> amadurece e eventualmente combate seu irmão adotivo, o astuto e impiedoso Dio Brando, que se torna um vampiro com a ajuda de uma antiga máscara de pedra. 
+                            <br> Jonathan é treinado por Will Anthonio Zeppeli na energia vibrante do Hamon, manejada no corpo humano e transferida em combate corpo a corpo, que é o único <br> caminho seguro além da luz do sol para derrotar Vampiros e seus asseclas Zumbis.
+                        </p> <!--"br" é usado para inserir uma quebra de linha em um texto-->
+                            
+                            <p class="table-jojo">O principal vilão da primeira parte de JoJo's Bizarre Adventure, Phantom Blood, é Dio Brando, o irmão adotivo de Jonathan Joestar, o protagonista da história &#x1F9DB; </p> <!--"&#x" é usado para usar emojis-->
+                        <td><img src="imagens/Dio_parte1.png" width="200" height="350" alt="imagem de Dio Brando"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><a href="#top"><button>Voltar</button></a></td>
+                    </tr>
+                    <tr id="Battle Tendency I">
+                        <td>Parte 2 (Battle Tendency)</td>
+                        <td>Joseph Joestar</td>
+                        <td> <p class="table-jojo">A segunda parte Battle Tendency mostra o neto de Jonathan, Joseph Joestar, cruzando o mundo nos dias que antecederam a Segunda Guerra Mundial em 1938 para combater <br> os Homens do Pilar, uma antiga raça de seres hostis responsáveis ​​pela criação da Máscara de Pedra. Como seu avô, Joseph passa por um árduo treinamento em Hamon <br> ao lado de César Anthonio Zeppeli, neto de Will, pela secreta Lisa Lisa e tenta proteger a Pedra Vermelha de Aja, uma joia procurada <br> pelos Homens do Pilar para completar a Máscara de Pedra e conceder imunidade ao Sol.</p>
+                            
+                            <p class="table-jojo">Joseph Joestar (ジョセフ・ジョースター Josefu Jōsutā) é o protagonista de Battle Tendency e um aliado em Stardust Crusaders e Diamond is Unbreakable. <br> Ele é o segundo JoJo da série JoJo's Bizarre Adventure. Ele também é o segundo JoJo mais recorrente da série depois de seu neto Jotaro Kujo e é um de seus personagens mais conhecidos. <br>
+                        
+                                Joseph é um usuário natural do Hamon e eventual usuário do Stand, empunhando o Stand fotográfico psíquico, Hermit Purple. Joseph enfrenta as ameaças fantásticas <br> que se aproximam dele ao longo de sua vida com iniciativa e engenhosidade impressionante, lutando contra Vampiros, os Homens do Pilar e usuários malévolos do Stand.(talvez o personagem mais esperto da obra) &#x1F9E0; &#x1F9B8; </p></td>
+                        <td><img src="imagens/Joseph_Joestar_parte2_2.png" width="240" height="380" alt="imagem Joseph Joestar"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><a href="#top"><button>Voltar</button></a></td>
+                    </tr>
+                    <tr id="Battle Tendency II">
+                        <td>Parte 2 (Battle Tendency)</td>
+                        <td>Kars</td>
+                        <td><p class="table-jojo">A segunda parte Battle Tendency mostra o neto de Jonathan, Joseph Joestar, cruzando o mundo nos dias que antecederam a Segunda Guerra Mundial em 1938 para combater <br> os Homens do Pilar, uma antiga raça de seres hostis responsáveis pela criação da Máscara de Pedra. Como seu avô, Joseph passa por um árduo treinamento em Hamon <br> ao lado de César Anthonio Zeppeli, neto de Will, pela secreta Lisa Lisa e tenta proteger a Pedra Vermelha de Aja, uma joia procurada <br> pelos Homens do Pilar para completar a Máscara de Pedra e conceder imunidade ao Sol.</p>
+                       
+                        <p class="table-jojo">Kars (カーズ Kāzu) é o principal antagonista de Battle Tendency.
+
+                            Kars é o líder dos Homens do Pilar e o criador da Máscara de Pedra. <br> Seu objetivo é evoluir ainda mais para se tornar imune aos raios do sol e, assim, ele busca a Pedra Vermelha de Aja para fortalecer suas Máscaras, lutando contra os usuários do Hamon por sua posse. <br> Ele está classificado em 1º lugar entre todos os Homens do Pilar.
+                            
+                            Como o criador das Máscaras de Pedra e Vampiros, Kars é um dos personagens mais influentes da série; sua invenção teve <br> repercussões de longo alcance para vários personagens importantes, como Dio Brando , a Família Joestar e a Família Zeppeli. &#x1F9B9; &#x1F9DB;</p</td>
+                        <td><img src="imagens/Kars_jojo_parte2_2.png" width="230" height="300" alt="imagem Kars"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><a href="#top"><button>Voltar</button></a></td>
+                    </tr>
+                    <tr id="Stardust Crusaders I">
+                        <td>Parte 3 (Stardust Crusaders)</td>
+                        <td>Jotaro Kujo</td>
+                        <td><p class="table-jojo">Em 1987, Jotaro Kujo inesperadamente desenvolve um poder misteriosos conhecido como Stand. Jotaro, seu avô Joseph Joestar e seus aliados, viajam para o Egito em busca do malvado e imortal vampiro Dio Brando , agora conhecido apenas como "DIO" para salvar a mãe de Jotaro, Holly Kujo, cujo Stand despertou e ameaça consumi-la em 50 dias. Enquanto isso, DIO encomendou um número de assassinos com vários tipos de Stands mortais para destruí-los antes que eles possam alcançá-lo.</p> 
+                        
+                        <p class="table-jojo">Jotaro Kujo (空条 承太郎 Kūjō Jōtarō) é o protagonista da Parte 3 e também aparece nas Partes 4-6 Jotaro é o terceiro e o JoJo mais recorrente na série JoJo's Bizarre Adventure.
+
+                            Jotaro é um delinquente que vive uma vida normal até que o velho inimigo da Família Joestar, DIO, retorna. Jotaro viaja para o Egito para salvar sua mãe e parar o Vampiro de uma vez por todas.
+                            
+                            Empunhando o incrivelmente poderoso Star Platinum, Jotaro é o primeiro JoJo apresentado com um Stand e está entre os personagens mais conhecidos da série.</p></td>
+                        <td><img src="imagens/jotarokujjo123.png" width="230" height="300" alt="imagem Jotaro"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><a href="#top"><button>Voltar</button></a></td>
+                    </tr>
+                    <tr id="Stardust Crusaders II">
+                        <td>Parte 3 (Stardust Crusaders)</td>
+                        <td>DIO</td>
+                        <td><p class="table-jojo">Em 1987, Jotaro Kujo inesperadamente desenvolve um poder misteriosos conhecido como Stand. Jotaro, seu avô Joseph Joestar e seus aliados, viajam para o Egito em busca do malvado e imortal vampiro Dio Brando , agora conhecido apenas como "DIO" para salvar a mãe de Jotaro, Holly Kujo, cujo Stand despertou e ameaça consumi-la em 50 dias. Enquanto isso, DIO encomendou um número de assassinos com vários tipos de Stands mortais para destruí-los antes que eles possam alcançá-lo.</p>
+                        
+                        <p class="table-jojo">Dio Brando (ディオ・ブランドーDio Burandō), conhecido como DIO da Parte 3 em diante, é o principal antagonista no universo original de JoJo's Bizarre Adventure, apresentado principalmente como o principal antagonista em Phantom Blood e Stardust Crusaders, e um antagonista chave póstumo em Stone Ocean.
+
+                            Depois de se tornar um Vampiro e mais tarde um usuário de Stand, Dio reuniu ao seu redor muitos lacaios e é responsável por muitos eventos importantes da série, desde a morte de Jonathan Joestar até a aquisição repentina do poder Stand pela Família Joestar, e seu legado persiste. ao longo da série. Ele é o portador do imensamente poderoso The World.</p></td>
+                        <td><img src="imagens/Dio-brando-stardust.webp" alt="imagem DIO" width="200" height="300"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><a href="#top"><button>Voltar</button></a></td>
+                    </tr>
+                    <tr id="Diamond Is Unbreakable I">
+                        <td>Parte 4 (Diamond Is Unbreakable)</td>
+                        <td>Josuke Higashikata</td>
+                        <td><p class="table-jojo">A historia passa-se em 1999, a temporada segue as aventuras de Josuke Higashikata, o filho ilegítimo de Joseph Joestar, enquanto ele e seus novos amigos buscam um arco e flecha mágico que concedeu às pessoas poderes perigosos de Stand, arrancando a vida antes tranquila de Josuke em sua casa cidade de Morioh.</p>
+                        
+                        <p class="table-jojo">Josuke Higashikata (東方 仗助, Higashikata Jōsuke; o Suke — 助 — em seu nome também pode ser pronunciado como "Jo") é o protagonista de Diamond is Unbreakable e o quarto JoJo da série série JoJo's Bizarre Adventure.
+
+                            Josuke é um aluno do primeiro ano do ensino médio que mora na cidade de Morioh. Ele logo conhece Jotaro Kujo, que o informa que ele é filho ilegítimo de Joseph Joestar. Depois que seu avô morre, Josuke assume a responsabilidade de proteger sua amada cidade dos malévolos usuários do Stand. Josuke empunha Crazy Diamond, um poderoso Stand com o poder de consertar quase tudo.</p></td>
+                        <td><img src="imagens/Unit_Josuke_Higashikata.png" width="270" height="300" alt="imagem Josuke"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><a href="#top"><button>Voltar</button></a></td>
+                    </tr>
+                    <tr id="Diamond Is Unbreakable II">
+                        <td>Parte 4 (Diamond Is Unbreakable)</td>
+                        <td>Yoshikage Kira</td>
+                        <td><p class="table-jojo">A historia passa-se em 1999, a temporada segue as aventuras de Josuke Higashikata, o filho ilegítimo de Joseph Joestar, enquanto ele e seus novos amigos buscam um arco e flecha mágico que concedeu às pessoas poderes perigosos de Stand, arrancando a vida antes tranquila de Josuke em sua casa cidade de Morioh.</p>
+                        
+                        <p class="table-jojo">Yoshikage Kira (吉良 吉影 Kira Yoshikage) é o principal antagonista de Diamond is Unbreakable.
+
+                            Despercebido em Morioh por anos e imperturbável durante toda a sua vida, Yoshikage Kira é um serial killer anormal e parafílico cuja rotina é abalada quando o fantasma de sua primeira vítima, Reimi Sugimoto , implora ao Grupo Joestar para procurá-lo e ele atrai atenção indesejada ao matar Shigekiyo Yangu. Kira é um usuário de Stand e empunha a poderosa Killer Queen, que tem a habilidade de criar bombas mortais.</p></td>
+                        <td><img src="imagens/Yoshikage Kira1.png" width="250" height="300" alt="Imagem Kira"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><a href="#top"><button>Voltar</button></a></td>
+                    </tr>
+                    <tr id="Golden Wind I">
+                        <td>Parte 5 (Golden Wind)</td>
+                        <td>Giorno Giovanna</td>
+                        <td><p class="table-jojo">Em 2001, dois anos após os eventos de Diamond Is Unbreakable , Koichi Hirose é enviado para a Itália por Jotaro Kujo, que o incumbe de investigar uma pessoa conhecida como Haruno Shiobana, cujo nome verdadeiro é revelado mais tarde como Giorno Giovanna, filho de Jonathan Joestar e indiretamente Dio Brando. A história segue então Giorno em seu objetivo de chegar ao topo do grupo mafioso "Passione" no qual seu objetivo e de transformá-los em um bando de ladrões honrados.</p>
+                        
+                        <p class="table-jojo">Giorno Giovanna (ジョルノ·ジョバァーナJoruno Jobāna) é o protagonista de Golden Wind e o quinto JoJo da série JoJo's Bizarre Adventure.
+
+                            Giorno é o filho ilegítimo de DIO, concebido com o corpo roubado de Jonathan Joestar. Ele é apresentado como Haruno Shiobana (汐華 初流乃). Ele fala de sua intenção de se juntar à poderosa gangue Passione e seu sonho de se tornar um "Gangstar".
+                            
+                            Giorno é um Usuário de Stand nato, empunhando a Gold Experience em batalha.</p></td>
+                        <td><img src="imagens/Giorno_Giovanna_pose.png" width="200" height="300" alt="imagem Giorno"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><a href="#top"><button>Voltar</button></a></td>
+                    </tr>
+                    <tr id="Golden Wind II">
+                        <td>Parte 5 (Golden Wind)</td>
+                        <td>Diavolo</td>
+                        <td><p class="table-jojo">Em 2001, dois anos após os eventos de Diamond Is Unbreakable , Koichi Hirose é enviado para a Itália por Jotaro Kujo, que o incumbe de investigar uma pessoa conhecida como Haruno Shiobana, cujo nome verdadeiro é revelado mais tarde como Giorno Giovanna, filho de Jonathan Joestar e indiretamente Dio Brando. A história segue então Giorno em seu objetivo de chegar ao topo do grupo mafioso "Passione" no qual seu objetivo e de transformá-los em um bando de ladrões honrados.</p>
+                        
+                        <p class="table-jojo">Diavolo (ディアボロ Diaboro) é o principal antagonista apresentado em Golden Wind.
+
+                            O primeiro chefe da Passione, Diavolo busca segurança e superioridade absolutas ao eliminar todos os vestígios de seu passado, incluindo sua filha, Trish Una , e tenta recuperá-la manipulando o Time Bucciarati por meio de suas ordens. Ele e Vinegar Doppio são duas almas que habitam um único corpo, e enquanto Doppio pode manifestar apenas parcialmente o incrivelmente mortal King Crimson , Diavolo é o principal usuário do Stand e exerce seu poder brutal por completo.</p></td>
+                        <td><img src="imagens/Unit_Diavolo0.png" width="290"
+                            height="360" alt="Imagem Diavolo"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><a href="#top"><button>Voltar</button></a></td>
+                    </tr>
+                    <tr id="Stone Ocean I">
+                        <td>Parte 6 (Stone Ocean)</td>
+                        <td>Jolyne Cujoh</td>
+                        <td><p class="table-jojo">Passado em 2011, Jolyne Cujoh foi condenada por 15 anos de prisão depois de se envolver em um acidente de carro e ser acusada de homicídio. Ela está presa na Prisão Green Dolphin Street, na Flórida, apelidada de "Aquário". Seu pai, Jotaro Kujo, dá a ela um pingente que faz com que um misterioso poder desperte dentro dela. Quando uma série de eventos inexplicáveis ocorrem, Jotaro informa sua filha que um discípulo de DIO a incriminou para que ele pudesse matá-la na prisão, e a encoraja a escapar.</p>
+                        
+                        <p class="table-jojo">Jolyne Cujoh (空条 徐倫Kūjō Jorīn ) é a protagonista da Parte 6 e a sexta JoJo da série JoJo's Bizarre Adventure.
+
+                            Jolyne é a única protagonista mulher " JoJo " até hoje, e filha de Jotaro Kujo. Inicialmente uma garota comum, Jolyne rapidamente desperta seu Stand baseado em cordas, Stone Free, durante seu tempo na prisão.</p></td>
+                        <td><img src="imagens/jolyne-kujo-from-jojos-bizarre.webp" width="170" height="320" alt="Imagem Jolyne"></td>
+                        <tr>
+                            <td colspan="4"><a href="#top"><button>Voltar</button></a></td>
+                        </tr>
+                    </tr>
+                    <tr id="Stone Ocean II">
+                        <td>Parte 6 (Stone Ocean)</td>
+                        <td>Enrico Pucci</td>
+                        <td><p class="table-jojo">Passado em 2011, Jolyne Cujoh foi condenada por 15 anos de prisão depois de se envolver em um acidente de carro e ser acusada de homicídio. Ela está presa na Prisão Green Dolphin Street, na Flórida, apelidada de "Aquário". Seu pai, Jotaro Kujo, dá a ela um pingente que faz com que um misterioso poder desperte dentro dela. Quando uma série de eventos inexplicáveis ocorrem, Jotaro informa sua filha que um discípulo de DIO a incriminou para que ele pudesse matá-la na prisão, e a encoraja a escapar.</p>
+                        
+                        <p class="table-jojo">Enrico Pucci (エンリコ・プッチ Enriko Pucchi) é o principal antagonista de JoJo's Bizarre Adventure: Stone Ocean.
+
+                            Um seguidor leal e amigo de DIO, ele implementa um plano há muito tempo formulado por DIO para "alcançar o céu". Pucci é usuário de Stand, seu Stand manipula a mente e a alma, seu nome é Whitesnake.</p></td>
+                        <td><img src="imagens/Pucci0.png" width="200" height="300" alt="Imagem Pucci"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><a href="#top"><button>Voltar</button></a></td>
+                    </tr>
+                    <tr id="Steel Ball Run I">
+                        <td>Parte 7 (Steel Ball Run)</td>
+                        <td>Johnny Joestar</td>
+                        <td><p class="table-jojo">A Parte 7 de "JoJo's Bizarre Adventure", intitulada "Steel Ball Run", é ambientada nos Estados Unidos no final do século 19. A história segue Johnny Joestar, um ex-jovem jóquei que ficou paralisado após um acidente, e Gyro Zeppeli, um misterioso competidor que usa uma técnica chamada "Steel Ball" para manipular a energia cinética.
+
+                            Os dois se juntam à corrida Steel Ball Run, uma competição de cavalo que atravessa o país, em busca de uma recompensa. Durante a corrida, eles enfrentam diversos adversários, cada um com seus próprios Stands e habilidades únicas. A trama explora temas de redenção, amizade e a busca por propósito, enquanto Johnny descobre mais sobre si mesmo e seus poderes.
+                            
+                            A história também inclui elementos sobrenaturais e uma rica mitologia, ligando-se à história anterior da série. O desenvolvimento dos personagens e as interações são centrais para a narrativa, culminando em uma conclusão épica e emocionante.</p>
+                       
+                        <p class="table-jojo">Johnny Joestar (ジョニィ・ジョースター Joni Jōsutā ) , nascido Jonathan Joestar (ジョナサン・ジョースター Jonasan Jōsutā ) é o protagonista principal de Steel Ball Run e um personagem secundário em JoJolion. Ele é o sétimo JoJo da série JoJo's Bizarre Adventure.
+
+                            Um ex -prodígio das corridas de cavalos que se tornou paraplégico, Johnny se junta à corrida SBR para descobrir o segredo por trás das Steel Balls de Gyro Zeppeli, pois são a única coisa capaz de restaurar suas pernas.
+                            
+                            Ao longo da corrida, Johnny se torna um usuário de Spin, bem como um usuário de Stand quando adquire Tusk.</p></td>
+                        <td><img src="imagens/Johnny_Joestar01.png" width="290" height="410" alt="Imagem Johnny"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><a href="#top"><button>Voltar</button></a></td>
+                    </tr>
+                    <tr id="Steel Ball Run II">
+                        <td>Parte 7 (Steel Ball Run)</td>
+                        <td>Funny Valentine</td>
+                        <td><p class="table-jojo">A Parte 7 de "JoJo's Bizarre Adventure", intitulada "Steel Ball Run", é ambientada nos Estados Unidos no final do século 19. A história segue Johnny Joestar, um ex-jovem jóquei que ficou paralisado após um acidente, e Gyro Zeppeli, um misterioso competidor que usa uma técnica chamada "Steel Ball" para manipular a energia cinética.
+
+                            Os dois se juntam à corrida Steel Ball Run, uma competição de cavalo que atravessa o país, em busca de uma recompensa. Durante a corrida, eles enfrentam diversos adversários, cada um com seus próprios Stands e habilidades únicas. A trama explora temas de redenção, amizade e a busca por propósito, enquanto Johnny descobre mais sobre si mesmo e seus poderes.
+                            
+                            A história também inclui elementos sobrenaturais e uma rica mitologia, ligando-se à história anterior da série. O desenvolvimento dos personagens e as interações são centrais para a narrativa, culminando em uma conclusão épica e emocionante.</p>
+                        
+                        <p class="table-jojo">Funny Valentine (ファニー・ヴァレンタインFanī Varentain) é o principal antagonista de Steel Ball Run.
+
+                            Funny Valentine é o 23º presidente dos Estados Unidos e o verdadeiro mentor da corrida Steel Ball Run. Ele observa a competição por trás das cortinas e espera reunir o cadáver do santo para usar a relíquia sagrada para promover os interesses dos Estados Unidos da América.
+                            
+                            Valentine é um usuário do Stand , empunhando seus Dirty Deeds Done Dirt Cheap (D4C) e suas habilidades dimensionais para viajar por universos paralelos.</p></td>
+                        <td><img src="imagens/Funny_Valentine_D4C.png" width="300" height="400" alt="Imagem Valentine"></td>
+                    </tr>
+                    <td colspan="4"><a href="#top"><button>Voltar</button></a></td>
+                    </tr>
+                    <tr id="JoJolion I">
+                        <td>Parte 8 (JoJolion)</td>
+                        <td>Josuke Higashikata</td>
+                        <td><p class="table-jojo">A Parte 8 de "JoJo's Bizarre Adventure", intitulada "JoJolion", segue a história de Josuke Higashikata, que vive em uma versão alternativa de Morioh após o evento do terremoto. Josuke sofre de amnésia e busca descobrir sua verdadeira identidade, enquanto lida com questões familiares e a misteriosa "família Higashikata".
+
+                            A narrativa gira em torno de Stand users e a busca por um artefato chamado "Rock Humans". A trama é complexa, com várias reviravoltas, e explora temas como identidade, memória e conexão familiar. Ao longo da parte, Josuke e seus aliados enfrentam inimigos intrigantes, revelando segredos obscuros sobre sua origem e o passado da cidade.</p>
+                        
+                        <p class="table-jojo">Josuke Higashikata (東方 定助 Higashikata Jōsuke) é o protagonista principal de JoJolion, o oitavo JoJo da série JoJo's Bizarre Adventure .
+
+                            Josuke é um jovem que sofre de amnésia retrógrada, sem nenhuma memória antes de ser descoberto por Yasuho Hirose perto das Paredes Oculares em Morioh Town. Ele se dedica a descobrir sua antiga identidade e aqueles originalmente associados a ele.
+                            
+                            A identidade original de Josuke era a de Josefumi Kujo (空条 仗世文Kūjō Josefumi ) , e tornou-se seu eu atual após a fusão com o homem Yoshikage Kira (吉良 吉影Kira Yoshikage ) . Josuke é um Stand User e mantém sua identidade original Soft & Wet , embora com pequenas mudanças influenciadas por sua outra metade.</p></td>
+                        <td><img src="imagens/JoJo_Josuke_8.png" width="240" height="410" alt="Imagem Josuke part 8"></td>
+                    </tr>
+                    <td colspan="4"><a href="#top"><button>Voltar</button></a></td>
+                    </tr>
+                    <tr id="JoJolion II">
+                        <td>Parte 8 (JoJolion)</td>
+                        <td>Toru</td>
+                        <td><p class="table-jojo">A Parte 8 de "JoJo's Bizarre Adventure", intitulada "JoJolion", segue a história de Josuke Higashikata, que vive em uma versão alternativa de Morioh após o evento do terremoto. Josuke sofre de amnésia e busca descobrir sua verdadeira identidade, enquanto lida com questões familiares e a misteriosa "família Higashikata".
+
+                            A narrativa gira em torno de Stand users e a busca por um artefato chamado "Rock Humans". A trama é complexa, com várias reviravoltas, e explora temas como identidade, memória e conexão familiar. Ao longo da parte, Josuke e seus aliados enfrentam inimigos intrigantes, revelando segredos obscuros sobre sua origem e o passado da cidade.</p>
+                        
+                        <p class="table-jojo">Toru (とおる (透龍) Tōru) é o principal antagonista de JoJolion. Ele é o cérebro por trás da Organização Locacaca e o médico chefe do Hospital Universitário TG, sobre o disfarce de seu Stand como Satoru Akefu. Ao lado de seu Stand, ele se disfarça de trabalhador de meio período no hospital.
+
+                            Ele eventualmente é revelado como um Rock Human e um usuário do Stand, empunhando o Wonder Of U causador de calamidade.</p></td>
+                        <td><img src="imagens/Toru_Manga.png" width="230" height="360" alt="Imagem Totu"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><a href="#top"><button>Voltar</button></a></td>
+                    </tr>
+                </table>
+            <h3 id="Conclusion">Conclusão</h3>
+            <p class="rodape-paragrafo">Até o momento, essas são todas as partes de JOJO. A parte 9 ainda está em lançamento.</p>
+                <h3 id="video">Vídeo para tentar te convencer a assistir/ler JOJO</h3>
+                <p class="rodape-paragrafo">Assista ao vídeo desse canal falando sobre <a href="https://www.youtube.com/watch?v=X8WhqmjpyFU" target="_top">JoJo Bizarre Adventure</a> no YouTube.</p>
+            </body>
+            </html>
+            </p>
+    </div>
+    <main>
+
+        <footer>
+            <div class="interface">
+                <div class="line-footer">
+                    <div class="flex">
+                    <div class="logo-footer">
+                        <img src="icone/icone.png" alt="logo de jojo" width="100">
+                    </div><!--logo-footer-->
+                    
+                    </div>
+                </div><!--line-footer-->
+    
+                <div class="line-footer borda">
+                    <p><i class="bi bi-envelope-fill"></i> <a style="color: black;" href="assisteciajojo@gmail.com">assisteciajojo@gmail.com
+                    </a></p>
+                </div>
+            </div><!--interface-->
+            <div id="rodape">
+                Todos os direitos reservados
+            </div>
+        </footer>
+</body>
+</html>
