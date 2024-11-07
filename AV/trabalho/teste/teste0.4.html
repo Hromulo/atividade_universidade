@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="icone/favicon.ico" type="image/x-icon">
+    <title>Teste</title>
+</head>
+<body>
+    <div id="topo">
+        <div><h1>TESTE - 4</h1>
+        <p>Esse teste a para verificar email, digite <span>teste@gmail.com</span></p>
+        <p>Depois e so clicar na em qualquer lugar na tela</p>
+        <p>exeto nos butões</p>
+        <script>
+            function validaEmail() {
+            var email = document.getElementById("email").value;
+            if (email !== "teste@gmail.com") {
+            document.getElementById("emailMsg").innerHTML="Insira um e-mail válido";
+            } else {
+            document.getElementById("emailMsg").innerHTML="e-mail válido";
+            }
+            }
+            </script>
+            <input type="text" id="email" onBlur="validaEmail()" />
+            <p id="emailMsg"></p>
+        </div>
+
+        <div id="butão">
+            <ul>
+                <li><a href="teste0.3.html"><button>Anterior</button></a></li>
+                <li><a href="/sobre.html"><button>Voltar</button></a></li>
+                <li><a href="teste0.5.html"><button>Proximo</button></a></li>
+            </ul>
+        </div>
+    </div>
+</body>

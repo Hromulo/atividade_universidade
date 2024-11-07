@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="icone/favicon.ico" type="image/x-icon">
+    <title>Teste</title>
+</head>
+<body id="corpo">
+    <div id="topo1">
+        <div><h1>TESTE - 5</h1>
+            <p>Esse teste a para mudar a cor de fundo</p>
+            <script>
+            function trocaFundo(elemento) {
+            if (elemento.id == "radio_css_azul") {
+            document.getElementById("corpo").style.background="#ddf";
+            } else {
+            document.getElementById("corpo").style.background="#fdd";
+            }
+            }
+            </script>
+            <input type="radio" name="radio_css" id="radio_css_azul" onClick="trocaFundo(this)"
+            checked />Fundo Azul <br/>
+            <input type="radio" name="radio_css" id="radio_css_verm" onClick="trocaFundo(this)"
+            /> Fundo Vermelho
+        </div>
+        <div id="butão">
+            <ul>
+                <li><a href="teste0.4.html"><button>Anterior</button></a></li>
+                <li><a href="/sobre.html"><button>Voltar</button></a></li>
+                <li><a href="teste0.6.html"><button>Proximo</button></a></li>
+            </ul>
+        </div>
+    </div>
+</body>

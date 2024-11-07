@@ -1,0 +1,90 @@
+/*Limpar formatações padrão*/
+*{
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o padding padrão de todos os elementos */
+    box-sizing: border-box; /* Inclui bordas e padding nas dimensões totais do elemento */
+    font-family: "Poppins", sans-serif; /* Define a fonte padrão */
+} 
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o padding padrão do body */
+    overflow-x: hidden; /* Remove a barra de rolagem horizontal */
+    background-color: #0e191a; /* Define a cor de fundo */
+    height: 100vh; /* Altura da tela inteira */
+}
+
+html{
+    scroll-behavior: smooth; /* Rolagem suave nas âncoras */
+}
+
+#topo1{
+    text-align: center;
+    background-color: #8c5be6;
+}
+
+#topo{
+    text-align: center;
+}
+
+button{
+    color: white; /* Define a cor do texto do botão */
+    padding: 10px; /* Espaçamento interno do botão */
+    font-size: 18px; /* Tamanho da fonte do botão */
+    font-weight: 600; /* Peso da fonte */
+    background-color: #ef34a2; /* Cor de fundo do botão */
+    border: 0; /* Remove a borda */
+    border-radius: 30px; /* Arredonda os cantos */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+    transition: .2s; /* Animação suave ao interagir com o botão */
+	align-items: center;
+}
+
+button:hover, form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px #8c5be6; /* Adiciona uma sombra ao passar o mouse */
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+}
+
+#butão ul{
+    list-style-type: none; /* Remove os marcadores da lista */
+}
+
+#butão ul li{
+    display: inline-block; /* Coloca os itens da lista em linha */
+    padding: 0 40px; /* Espaçamento entre os itens do menu */
+}
+
+#ola{
+    color: white;
+    border: 0;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #ef34a2;
+    font-size: 18px; /* Tamanho da fonte do botão */
+    font-weight: 600; /* Peso da fonte */
+    border-radius: 30px;
+    transition: .2s;
+}
+
+#ola button:hover, form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px #8c5be6; /* Adiciona uma sombra ao passar o mouse */
+    transform: scale(1.05);
+}
+
+h1 {
+	color:white;
+	font-size: 2.5em;
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-align: center;
+}

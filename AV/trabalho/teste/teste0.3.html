@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="icone/favicon.ico" type="image/x-icon">
+    <title>Teste</title>
+</head>
+<body>
+    <div id="topo">
+        <div><h1>TESTE - 3</h1>
+        <p>Esse teste a para perguntar se voçê aceita alguma modificação</p>
+        <script>
+            function mostrar_confirma() {
+            let controle = confirm("Tem certeza?");
+            if (controle==true) {
+            alert("Confirmado!");
+            } else {
+            alert("Cancelado!"); }
+            }
+            </script>
+            <input type="button" id="ola" onclick="mostrar_confirma()" value="Confirmar" />
+        </div>
+
+        <div id="butão">
+            <ul>
+                <li><a href="teste0.2.html"><button>Anterior</button></a></li>
+                <li><a href="/sobre.html"><button>Voltar</button></a></li>
+                <li><a href="teste0.4.html"><button>Proximo</button></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
